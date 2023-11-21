@@ -16,7 +16,7 @@ $altera = mysqli_query($conexao, $sql);
 if(!$altera){
     echo "Não foi possivel alterar o contato requisitado.";
 }else{
-    echo "Contato alterado com sucesso.;
+    echo "Contato alterado com sucesso.
     <a href='listar.php'>Voltar</a>";
 }
 

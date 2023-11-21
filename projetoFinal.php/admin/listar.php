@@ -26,6 +26,11 @@ $todos = mysqli_query($conexao, $busca)
     
     <button type="submit" class="w-100 btn-primary">Alterar</button>
 </form>
+
+    <form action = "deletarContato.php" method = "post">
+
+
+    <button type="submit" class="w-100 btn-primary">Deletar</button>
     
 
 

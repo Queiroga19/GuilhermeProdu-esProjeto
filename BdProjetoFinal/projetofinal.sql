@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 21/11/2023 às 01:21
+-- Tempo de geração: 21/11/2023 às 22:20
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -37,13 +37,6 @@ CREATE TABLE `faleconosco` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Despejando dados para a tabela `faleconosco`
---
-
-INSERT INTO `faleconosco` (`id`, `nome`, `sobrenome`, `email`, `assunto`, `mensagem`) VALUES
-(13, 'awdojsdjb', 'ag ojajo', 'aa@gmail.com', 'g dkjga', 'adsfrawe');
-
---
 -- Índices para tabelas despejadas
 --
 
@@ -61,7 +54,7 @@ ALTER TABLE `faleconosco`
 -- AUTO_INCREMENT de tabela `faleconosco`
 --
 ALTER TABLE `faleconosco`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
